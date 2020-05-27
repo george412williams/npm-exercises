@@ -1,8 +1,11 @@
 "use strict";
 
-function sayHello() {
-    console.log("hello")
-};
+const sayHello = (name) => 'Hello ${name}!';
 
-sayHello();
+// function sayHello() {
+//     console.log("hello")
+// };
+// ES6 code is translated to ES5 in main.js
+
+sayHello("George");
 
