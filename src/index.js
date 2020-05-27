@@ -7,5 +7,5 @@ const sayHello = (name) => 'Hello ${name}!';
 // };
 // ES6 code is translated to ES5 in main.js
 
-sayHello("George");
+console.log(sayHello("George"));
 
