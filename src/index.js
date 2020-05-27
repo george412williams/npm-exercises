@@ -1,6 +1,8 @@
 "use strict";
 
-const sayHello = (name) => 'Hello ${name}!';
+const $ = require('jquery');
+
+const sayHello = (name) => 'Hello, ${name}!';
 
 // function sayHello() {
 //     console.log("hello")
