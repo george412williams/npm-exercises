@@ -3,7 +3,7 @@
 const path = require('path');
 
 module.exports = {
-    // where our app "starts"
+    // where our app "starts", have to add those things yourself
     entry: './src/index.js',
     // where to put the transpiled javascript
     output: {
