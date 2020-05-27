@@ -12,7 +12,7 @@ const sayHello = (name) => 'Hello, ${name}!';
 // ES6 code is translated to ES5 in main.js
 
 
-niceMessage();
+console.log(niceMessage);;
 
 //console.log(sayHello("George"));
 
